@@ -1,0 +1,291 @@
+body {
+  background: url("images/background.jpg") center center fixed;
+  background-size: cover;
+}
+
+hr {
+  width: 5%;
+  border-top: 6px dotted #000000;
+  border-bottom: none;
+  margin: 50px auto;
+}
+
+#home h1 {
+  padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120px;
+  text-align: center;
+  margin: auto;
+}
+
+#home p {
+  padding: 50px 200px 70px 200px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+#products h1 {
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  margin: auto;
+}
+
+.item-coffee, .item-kakao, .item-honey {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.item-pistachios, .item-tea {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+}
+
+.img-coffee, .img-kakao, .img-honey {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-pistachios, .img-tea {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+#products p {
+  text-align: left;
+}
+
+.actions {
+  padding-top: 20px;
+}
+
+#shop h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  margin: auto;
+}
+
+.shop-container {
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 30px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 100px;
+}
+
+.items-shop h2 {
+  text-align: center;
+}
+
+.items-shop {
+  width: 60%;
+  padding: 20px;
+}
+
+.cart h2 {
+  text-align: center;
+}
+
+.cart {
+  width: 40%;
+  padding: 20px;
+  border-left: 2px solid black;
+  position: relative;
+}
+
+.single-item {
+  display: flex;
+  border-bottom: 1px solid grey;
+  padding: 15px 0;
+}
+
+.single-item:last-child {
+  border-bottom: 0;
+}
+
+.single-item img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.single-item .si-content {
+  width: 70%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.single-item .si-content p {
+  font-size: 20px;
+}
+
+.single-item .actions {
+  width: 30%;
+}
+
+.single-item .actions input {
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.single-item .actions button {
+  width: 60px;
+  margin-top: 10px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.cart-single-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cart-single-item h3 {
+  margin-bottom: 0;
+}
+
+.cart-single-item button {
+  padding: 5px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.total {
+  position: absolute;
+  bottom: 20px;
+  left: 70px;
+  font-size: 24px;
+}
+
+.total-price button {
+  border-radius: 12px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.btn {
+  background: #696969;
+  border-radius: 28px;
+  font-family: Arial;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: black;
+  background: white;
+  text-decoration: none;
+}
+
+#contact {
+  padding: 50px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 50px;
+}
+
+#contact p {
+  margin-bottom: 50px;
+}
+
+.social-media {
+  text-align: center;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 30px 0 0 0;
+}
+
+.social-media a {
+  color: #000000;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #C0C0C0;
+}
+
+.footer {
+  padding-top: 30px;
+  color: #708090;
+  font-size: 0.75rem;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 33%;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.form-container h2 {
+  text-align: center;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+}
+
+.form-container input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container .btn {
+  padding: 14px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 30%;
+  display: inline-block;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.btn-container .btn:hover {
+  opacity: 1;
+}
